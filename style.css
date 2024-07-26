@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-image: url("back_image.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.navbar{
+    height: 105px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+
+}
+.icon{
+    height: 85px;
+    width: 250px;
+    padding-top: 10px;
+}
+.logo{
+    height: 85px;
+    width: 250px;
+    font-size: 30px;
+    padding: 10px;
+    color: blue ;
+    font-weight: bolder;
+}
+.menu{
+    height: 75px;
+    width: 400px;
+}
+ul{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+ul li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.search{
+    height: 85px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.srch{
+    height: 50px;
+    width: 200px;
+    float: left;
+    background: transparent;
+    border: 2px solid blue;
+    padding-left: 10px;
+    border-right: none;
+    border-bottom: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    height: 50px;
+    width: 90px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-bottom-right-radius: 5px;
+    color: antiquewhite;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: antiquewhite;
+
+}
+.srch:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.main h1 span{
+    color: blue;
+    font-size: 80px;
+
+}
+.main h1{
+    line-height: 50px;
+}
+.main p{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.btnn{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    background-color: blue;
+    color: wheat;
+    border-radius: 5px;
+}
+.btnn:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+.login{
+    height: 380px;
+    width: 250px;
+    background-color: rgba(98, 98, 196,0.3);
+    position: absolute;
+    top: 150px;
+    left: 950px;
+}
+.login h1{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px ;
+}
+.login input{
+    border: 2px solid blue;
+    margin: 10px;
+    height: 35px;
+    width: 230px;
+    background: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 10px;
+}
+.login input:focus{
+    outline: none;
+}
+.login button{
+    height: 40px;
+    width: 230px;
+    margin: 10px;
+    color:antiquewhite;
+    border: none;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login button:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+.login p{
+    margin-left: 40px;
+    font-size: 19px;
+}
+.login h2{
+    font-size: 15px;
+    text-align: center;
+}
+.login h2 a{
+    color: blue;
+    text-decoration: none;
+}
+.login h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.icons{
+    text-align: center;
+    margin-top: 10px;
+}
+.icons a{
+    color: white;
+    padding: 7px;
+}
+.icons a:hover{
+    color: blue;
+}
